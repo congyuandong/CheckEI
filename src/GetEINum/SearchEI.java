@@ -348,6 +348,7 @@ public class SearchEI {
 			getMethod.releaseConnection();
 		}
 		
+		//System.out.println("result:"+result);
 		//result.replaceAll(" ", "");
 		result = result.replaceAll("\t", "");
 		result = result.replaceAll("/static/images/emailfolder.gif", "static/images/emailfolder.gif");
@@ -360,6 +361,8 @@ public class SearchEI {
 	public String getTable(String result){
 		String table = "";
 		int indexStart = result.indexOf("<table border=\"0\" width=\"100%\" id=\"detailed\">");
+		if(indexStart == -1)
+			return "SORRY";
 		int indexEnd = result.indexOf("</table>", indexStart);
 		//System.out.println(indexStart + " " + indexEnd);
 		//System.out.println(result.substring(indexStart, indexEnd+8));

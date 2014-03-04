@@ -1,27 +1,17 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page import="GetEINum.ResponseMobile" %>
 <%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+	String path = request.getContextPath();
+	String basePath = request.getScheme() + "://"
+			+ request.getServerName() + ":" + request.getServerPort()
+			+ path + "/";
 %>
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-    <base href="<%=basePath%>">
-    
-    <title>doPost</title>
-    
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
+<%	
+	ResponseMobile rm = new ResponseMobile();
+	String res = rm.ResByWord1(request.getParameter("SearchWord1"));
+	//out.println(request.getParameter("SearchWord1"));
+	out.println(res);
+	//out.println("{\"message\":\"Brett\"}");
+%>
 
-  </head>
-  
-  <body>
-		<% request.getAttribute("SearchWord1");
-		   out.println("你好啊，丛远东");
-		 %>
-  </body>
-</html>
