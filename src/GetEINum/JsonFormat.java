@@ -15,7 +15,7 @@ public class JsonFormat {
 			// for (int j = 1; j < tds.size(); j++) {
 			// System.out.println(tds.get(j).text());
 			// }
-			jsonStr += "\""+tds.get(1).text().trim()+"\":\""+tds.get(2).text()+"\",";
+			jsonStr += "\""+tds.get(1).text().trim()+"\":\""+tds.get(2).text().replaceAll("\"", " ")+"\",";
 		}
 		jsonStr = jsonStr.substring(0,jsonStr.length()-1);
 		jsonStr += "}}";
