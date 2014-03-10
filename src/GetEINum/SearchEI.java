@@ -31,7 +31,7 @@ public class SearchEI {
 		
 		String url = "http://www.engineeringvillage.com/search/submit.url?CID=searchSubmit&searchtype=Quick&resetDataBase=1&database=1&searchWord1=";
 		url += searchWord1;
-		url += "&section1=NO-LIMIT&boolean1=AND&searchWord2=NULLNULL&section2=NO-LIMIT&boolean2=AND&searchWord3=NULLNULL&section3=NO-LIMIT&resetvar=1&doctype=NO-LIMIT&treatmentType=NO-LIMIT&language=NO-LIMIT&yearselect=yearrange&startYear=1969&endYear=2014&stringYear=CSY1884CST1969&updatesNo=1&sort=relevance&_sourcePage=nwNYFhx4sCDVWMYCskH10-_VEpYoCxgP2pgp04XxfpKJ_HzzHH4DTysqUMa2uZ1HSlCBRZjZPjI%3D&__fp=VpXY3G-0vGGZgCy3m5oeRMdfJFn2fW0gxYJ7UILlEZbN0gSaYcUDkLQUhU2UNX6GvrmxGEv8W7TitP26hjxGV3majLOwqm4gE--6bUonZv-XESw-NLq2mRWTxPS7eYN3l9nIienRNAfFcnRJPVFscyihz-eFHTGg0_BnghFZILotWA6K_T4u-g%3D%3D";
+		url += "&section1=TI&boolean1=AND&searchWord2=NULLNULL&section2=NO-LIMIT&boolean2=AND&searchWord3=NULLNULL&section3=NO-LIMIT&resetvar=1&doctype=NO-LIMIT&treatmentType=NO-LIMIT&language=NO-LIMIT&yearselect=yearrange&startYear=1969&endYear=2014&stringYear=CSY1884CST1969&updatesNo=1&sort=relevance&_sourcePage=nwNYFhx4sCDVWMYCskH10-_VEpYoCxgP2pgp04XxfpKJ_HzzHH4DTysqUMa2uZ1HSlCBRZjZPjI%3D&__fp=VpXY3G-0vGGZgCy3m5oeRMdfJFn2fW0gxYJ7UILlEZbN0gSaYcUDkLQUhU2UNX6GvrmxGEv8W7TitP26hjxGV3majLOwqm4gE--6bUonZv-XESw-NLq2mRWTxPS7eYN3l9nIienRNAfFcnRJPVFscyihz-eFHTGg0_BnghFZILotWA6K_T4u-g%3D%3D";
 		
 		String result = "";
 		String getURL = "";
