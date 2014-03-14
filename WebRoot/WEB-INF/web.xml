@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 	<welcome-file-list>
-		<welcome-file>index_new.jsp</welcome-file>
+		<welcome-file>index_quick.jsp</welcome-file>
 	</welcome-file-list>
 
 	<!-- 开始DWR配置 -->
